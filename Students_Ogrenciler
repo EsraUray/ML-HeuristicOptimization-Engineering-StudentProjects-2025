@@ -1,0 +1,27 @@
+# Öğrenci Projeleri / Student Projects
+
+Her öğrenci kendi klasörünü aşağıdaki biçimde oluşturmalıdır:  
+Each student must create their own folder in the following structure:
+
+- `ogrenciler/Ad_Soyad/`  
+  (örn: `ogrenciler/Ali_Yilmaz/`)  
+  (e.g.: `ogrenciler/Ali_Yilmaz/`)
+
+Bu klasör altında aşağıdaki yapı önerilmektedir:  
+The following structure is recommended inside this folder:
+
+- `README.md`  
+  - TR: Proje açıklaması ve varsa deploy edilmiş modelin linki  
+  - EN: Project description and, if available, the link to the deployed model
+
+- `notebooks/`  
+  - TR: Jupyter defterleri (deneyler, analizler vb.)  
+  - EN: Jupyter notebooks (experiments, analyses, etc.)
+
+- `src/`  
+  - TR: Kaynak kod dosyaları  
+  - EN: Source code files
+
+- `model/`  
+  - TR: Gerekirse kayıtlı model dosyaları (ağırlıklar, parametreler vb.)  
+  - EN: Saved model files if needed (weights, parameters, etc.)
