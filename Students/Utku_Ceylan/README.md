@@ -29,7 +29,7 @@ Projede üç temel bileşen birleştirilmiştir:
 
 ## 📂 Klasör Yapısı
 - `notebooks/`: Projenin ana kodlarını içeren Jupyter Notebook dosyası.
-- `src/`: Veri setinin bulunduğu dosya.
+- `dataset/`: Veri setinin bulunduğu dosya.
 
 ---
 **Hazırlayan:** Utku Ceylan  
