@@ -28,8 +28,8 @@ Geliştirilen algoritma, 200 iterasyonluk simülasyonlar sonucunda optimum rotay
 Algoritma, rastgele dağıtılan başlangıç rotalarına kıyasla lojistik maliyetlerini minimize etmiş ve araç kapasitelerini (Araç 1: %85, Araç 2: %75 doluluk) verimli kullanmıştır.
 
 ## 4. Klasör Yapısı
-* `src/`: Projenin kaynak kodları (MATLAB .m dosyaları).
-* `notebooks/`: Analiz ve denemeler (Varsa Jupyter not defterleri).
+* `src/`: Projenin kaynak kodları.
+* `notebooks/`: Analiz ve denemeler.
 * `model/`: Algoritma çıktıları veya kaydedilmiş model parametreleri.
 
 ---
