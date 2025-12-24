@@ -3,7 +3,7 @@
 
 ---
 
-## 🇹🇷 Proje Raporu (TR)
+## 🇹🇷 (TR)
 
 ### 1. Proje Özeti ve Amacı
 Bu çalışmanın temel amacı, Konya iline ait 2002-2023 yılları arasındaki meteorolojik verileri kullanarak, farklı Makine Öğrenmesi (ML) algoritmalarının performanslarını karşılaştırmak ve en başarılı model ile 2024-2025 yılları için aylık ortalama sıcaklık tahminleri yapmaktır. Sıcaklık değişimlerinin modellenmesi; tarım, enerji yönetimi ve şehir planlaması gibi alanlarda stratejik öneme sahiptir.
@@ -44,7 +44,7 @@ Yapılan analizler sonucunda **MLP (Yapay Sinir Ağı)** modeli, en yüksek R² 
 
 ---
 
-## 🇬🇧 Project Report (EN)
+## 🇬🇧 (EN)
 
 ### 1. Project Description
 The main objective of this study is to compare the performance of different Machine Learning (ML) algorithms using meteorological data of Konya province between 2002-2023 and to predict monthly average temperatures for the years 2024-2025 using the best performing model. Accurate temperature forecasting is crucial for sectors such as agriculture and energy management.
@@ -74,3 +74,4 @@ Model performance was evaluated using R², RMSE, and MAE metrics. The results on
 | Linear Regression | 0.930 | 1.88 | 2.30 |
 
 The **MLP (Artificial Neural Network)** model was selected as the best model due to having the highest R² score and the lowest RMSE. Consequently, it was used to generate future temperature predictions for 2024 and 2025.
+
