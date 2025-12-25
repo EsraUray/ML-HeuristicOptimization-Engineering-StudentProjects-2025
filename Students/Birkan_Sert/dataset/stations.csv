@@ -1,0 +1,12 @@
+ID,X_Coord,Y_Coord,Demand,Type
+0,50,50,0,Depot
+1,23,81,4,Station
+2,75,12,2,Station
+3,10,45,5,Station
+4,88,92,3,Station
+5,42,10,2,Station
+6,61,34,4,Station
+7,15,67,5,Station
+8,95,55,3,Station
+9,38,20,4,Station
+10,54,88,2,Station
