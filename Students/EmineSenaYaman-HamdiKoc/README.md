@@ -3,7 +3,7 @@ Makine Öğrenmesi Tabanlı Göl Seviyesi Tahmini
 
 Bu proje, iklim değişikliği, artan su kullanımı ve kentleşme gibi faktörlerin tatlı su kaynakları üzerindeki etkilerini analiz etmek amacıyla göl su seviyelerinin makine öğrenmesi ve derin öğrenme yöntemleri ile tahmin edilmesini hedeflemektedir.
 
-Çalışma, TÜBİTAK 2209-A kapsamında yürütülen bir proje olup, Beyşehir Gölü ve ABD’deki Beş Büyük Göl’e ait uzun dönemli gerçek ölçüm verileri kullanılmıştır.
+Beyşehir Gölü ve ABD’deki Beş Büyük Göl’e ait uzun dönemli gerçek ölçüm verileri kullanılmıştır.
 
 Çözülen Mühendislik Problemi
 
