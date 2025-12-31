@@ -47,3 +47,18 @@ Varsayılan parametrelerle tahmin edilen modelin metrikleri:
 
 Model yüksek açıklayıcılığa sahip, güvenilir bir performans sergilemektedir.
 
+
+## 4. Klasör Yapısı
+```
+Omer_Faruk_Keskin/
+├── README.md
+├── src/
+│   └── Yield.py
+└── notebooks/
+    └── Main.ipynb
+```
+
+## 5. Veri Seti
+Link: https://www.kaggle.com/datasets/samuelotiattakorah/agriculture-crop-yield
+
+
