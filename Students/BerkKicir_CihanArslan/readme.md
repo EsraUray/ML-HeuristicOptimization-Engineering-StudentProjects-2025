@@ -2,7 +2,7 @@
 
 **Ders:** Makine Öğrenmesi ve Optimizasyon Mühendislik Uygulamaları
 **Kurum:** KTO Karatay Üniversitesi - Mühendislik ve Doğa Bilimleri Fakültesi
-**Dönem:** 2025 Bahar
+**Dönem:** 2025 Güz
 
 ## 👨‍🔬 Proje Grubu
 * **Berk KICIR** (241451040)
