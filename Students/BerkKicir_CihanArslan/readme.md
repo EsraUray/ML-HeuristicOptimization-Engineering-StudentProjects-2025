@@ -19,7 +19,7 @@
 ## 📑 Proje Özeti
 Elektrik güç sistemlerinde, endüktif ve kapasitif yüklerin dinamik değişimi, şebeke kararlılığını ve enerji verimliliğini doğrudan etkilemektedir. TEDAŞ regülasyonlarına göre, işletmelerin reaktif güç tüketimlerini belirli sınırlar (Endüktif <%20, Kapasitif <%15) içerisinde tutmaları zorunludur.
 
-Geleneksel kompanzasyon röleleri, genellikle "sıralı anahtarlama" mantığıyla çalışmakta olup, kondansatör kademelerinin **ayrık (discrete)** ve düzensiz (non-uniform) olduğu karmaşık panolarda optimum anahtarlamayı sağlamada yetersiz kalabilmektedir.Bu çalışmada, türev gerektirmeyen stokastik bir optimizasyon yöntemi olan **Harmoni Arama Algoritması (Harmony Search Algorithm - HSA)** kullanılarak, **Kısıtlı Kombinatoryal Optimizasyon (Constrained Combinatorial Optimization)** problemi modellenmiş ve çözülmüştür.
+Geleneksel kompanzasyon röleleri, genellikle "sıralı anahtarlama" mantığıyla çalışmakta olup, kondansatör kademelerinin **ayrık (discrete)** ve düzensiz (non-uniform) olduğu karmaşık panolarda optimum anahtarlamayı sağlamada yetersiz kalabilmektedir.Bu çalışmada, türev gerektirmeyen stokastik bir optimizasyon yöntemi olan **Harmoni Arama Algoritması (Harmony Search Algorithm - HAA)** kullanılarak, **Kısıtlı Kombinatoryal Optimizasyon (Constrained Combinatorial Optimization)** problemi modellenmiş ve çözülmüştür.
 
 Projenin temel amacı, cezalı amaç fonksiyonu (penalized cost function) yaklaşımıyla reaktif güç hatasını minimize etmek ve anahtarlama elemanlarının (kondansatörlerin) ömrünü uzatacak optimum kondansatör kombinasyonunu belirlemektir.
 
@@ -57,7 +57,7 @@ Sistemin aktif güç talebinin 100 kW ve reaktif yükün 80 kVAr olduğu, donan�
 
 * **Sistem Durumu:** Kararlı (Stable)
 * **Sonuç:** Algoritma, çözüm uzayındaki global optimum noktayı tespit etmiştir. Büyük kademeler yerine "hassas" (küçük değerli) kondansatör gruplarına öncelik vererek **0.00 kVAr** hata ile sistemi dengeye oturtmuştur.
-* **Teknik Çıkarım:** HSA, ayrık değişkenli sistemlerde türevsel yöntemlere ihtiyaç duymadan sıfır hataya yakınsayabilmektedir.
+* **Teknik Çıkarım:** Harmoni Arama Algoritması(HAA), ayrık değişkenli sistemlerde türevsel yöntemlere ihtiyaç duymadan sıfır hataya yakınsayabilmektedir.
 
 ![Nominal Yük Analizi]
 *Grafik 2: Nominal yük altında optimizasyon sürecinin yakınsama grafiği ve kapasitif bölge yerleşimi.*
