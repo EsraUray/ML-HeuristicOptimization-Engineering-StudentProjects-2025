@@ -2,9 +2,12 @@
 
 **Ders:** Makine Öğrenmesi ve Optimizasyon Mühendislik Uygulamaları
 
-**Kurum:** KTO Karatay Üniversitesi - Mühendislik ve Doğa Bilimleri Fakültesi
-
 **Dönem:** 2025 Güz
+
+**Mühendislik ve Doğa Bilimleri Fakültesi**
+
+**KTO Karatay Üniversitesi** 
+
 
 ## 👨‍🔬 Proje Grubu
 * **Berk KICIR** (241451040)
@@ -13,7 +16,7 @@
 
 ---
 
-## 📑 Proje Özeti (Abstract)
+## 📑 Proje Özeti
 Elektrik güç sistemlerinde, endüktif ve kapasitif yüklerin dinamik değişimi, şebeke kararlılığını ve enerji verimliliğini doğrudan etkilemektedir. TEDAŞ regülasyonlarına göre, işletmelerin reaktif güç tüketimlerini belirli sınırlar (Endüktif <%20, Kapasitif <%15) içerisinde tutmaları zorunludur.
 
 Geleneksel kompanzasyon röleleri, genellikle "sıralı anahtarlama" mantığıyla çalışmakta olup, kondansatör kademelerinin **ayrık (discrete)** ve düzensiz (non-uniform) olduğu karmaşık panolarda optimum anahtarlamayı sağlamada yetersiz kalabilmektedir.Bu çalışmada, türev gerektirmeyen stokastik bir optimizasyon yöntemi olan **Harmoni Arama Algoritması (Harmony Search Algorithm - HSA)** kullanılarak, **Kısıtlı Kombinatoryal Optimizasyon (Constrained Combinatorial Optimization)** problemi modellenmiş ve çözülmüştür.
@@ -59,10 +62,10 @@ Sistemin aktif güç talebinin 100 kW ve reaktif yükün 80 kVAr olduğu, donan�
 ![Nominal Yük Analizi]
 *Grafik 2: Nominal yük altında optimizasyon sürecinin yakınsama grafiği ve kapasitif bölge yerleşimi.*
 
-### Durum 2: Doyum Bölgesi ve Yetersiz Kapasite (Saturation Case)
+### Durum 2: Doyum Bölgesi ve Yetersiz Kapasite 
 Bu senaryoda, işletmenin endüktif yük talebinin (300 kVAr), panodaki toplam kurulu gücü (207.5 kVAr) aştığı bir "arıza/yetersizlik" durumu simüle edilmiştir.
 
-* **Sistem Durumu:** Doyum (Saturation)
+* **Sistem Durumu:** Doyum 
 * **Sonuç:** Fiziksel olarak tam kompanzasyonun imkansız olduğu bu durumda, algoritma **çökme (divergence)** yaşamamıştır. Mevcut tüm kondansatörleri devreye alarak hatayı fiziksel olarak mümkün olan en alt limit olan **%37** seviyesine çekmiştir.
 * **Teknik Çıkarım:** Algoritma, kısıtların fiziksel olarak sağlanamadığı durumlarda dahi kararlı yapısını koruyarak "Best-Effort" (En iyi çaba) prensibiyle çalışmaktadır.
 
