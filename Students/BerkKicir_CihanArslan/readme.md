@@ -19,7 +19,7 @@
 ## 📑 Proje Özeti
 Elektrik güç sistemlerinde, endüktif ve kapasitif yüklerin dinamik değişimi, şebeke kararlılığını ve enerji verimliliğini doğrudan etkilemektedir. TEDAŞ regülasyonlarına göre, işletmelerin reaktif güç tüketimlerini belirli sınırlar (Endüktif <%20, Kapasitif <%15) içerisinde tutmaları zorunludur.
 
-Geleneksel kompanzasyon röleleri, genellikle "sıralı anahtarlama" mantığıyla çalışmakta olup, kondansatör kademelerinin **ayrık (discrete)** ve düzensiz (non-uniform) olduğu karmaşık panolarda optimum anahtarlamayı sağlamada yetersiz kalabilmektedir.Bu çalışmada, türev gerektirmeyen stokastik bir optimizasyon yöntemi olan **Harmoni Arama Algoritması (Harmony Search Algorithm - HAA)** kullanılarak, **Kısıtlı Kombinatoryal Optimizasyon (Constrained Combinatorial Optimization)** problemi modellenmiş ve çözülmüştür.
+Geleneksel kompanzasyon röleleri, genellikle "sıralı anahtarlama" mantığıyla çalışmakta olup, kondansatör kademelerinin **ayrık (discrete)** ve düzensiz (non-uniform) olduğu karmaşık panolarda optimum anahtarlamayı sağlamada yetersiz kalabilmektedir.Bu çalışmada, türev gerektirmeyen stokastik bir optimizasyon yöntemi olan **Harmoni Arama Algoritması (HAA)** kullanılarak, **Kısıtlı Kombinatoryal Optimizasyon** problemi modellenmiş ve çözülmüştür.
 
 Projenin temel amacı, cezalı amaç fonksiyonu (penalized cost function) yaklaşımıyla reaktif güç hatasını minimize etmek ve anahtarlama elemanlarının (kondansatörlerin) ömrünü uzatacak optimum kondansatör kombinasyonunu belirlemektir.
 
