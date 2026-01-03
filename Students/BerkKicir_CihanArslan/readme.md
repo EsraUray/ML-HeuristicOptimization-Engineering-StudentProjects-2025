@@ -1,4 +1,4 @@
-# Harmoni Arama Algoritması Tabanlı Reaktif Güç Kompanzasyon Optimizasyonu
+# Harmoni Arama Algoritması ile Kompanzasyon Sistemlerinin Optimizasyonu
 
 **Ders:** Makine Öğrenmesi ve Optimizasyon Mühendislik Uygulamaları
 
