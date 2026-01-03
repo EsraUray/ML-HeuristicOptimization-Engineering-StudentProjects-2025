@@ -9,7 +9,7 @@
 ## 👨‍🔬 Proje Grubu
 * **Berk KICIR** (241451040)
 * **Cihan ARSLAN** (231451030)
-* **Danışman:** Dr. Öğr. Üyesi Esra URAY
+* **Danışman:** **Dr. Öğr. Üyesi Esra URAY**
 
 ---
 
