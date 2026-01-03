@@ -71,7 +71,7 @@ Bu senaryoda, işletmenin endüktif yük talebinin (300 kVAr), panodaki toplam k
 
 ## 📂 Dosya Yapısı
 * `readme.md`: Proje hakkında bilgilendirme.
-* `src/`: MATLAB kaynak kodu.
+* `src/`: Matlab kaynak kodu.
 * `images/`: Simülasyon çıktılarına ait grafiksel veriler.
 
 ---
