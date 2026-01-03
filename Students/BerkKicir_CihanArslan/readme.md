@@ -1,7 +1,9 @@
 # Harmoni Arama Algoritması Tabanlı Reaktif Güç Kompanzasyon Optimizasyonu
 
 **Ders:** Makine Öğrenmesi ve Optimizasyon Mühendislik Uygulamaları
+
 **Kurum:** KTO Karatay Üniversitesi - Mühendislik ve Doğa Bilimleri Fakültesi
+
 **Dönem:** 2025 Güz
 
 ## 👨‍🔬 Proje Grubu
